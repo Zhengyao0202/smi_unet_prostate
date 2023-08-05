@@ -28,6 +28,6 @@ The backbone of it is a Unet which is obvious because it is a segmentation task.
 
 ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/dcf75dac-e942-4a8e-a807-1ea1a4e92ac8)
 
-It can be considered as a multi-example task, where we interpolate each biopsy core to find each point, and then use maxpooling to complete multi-example learning.
+It can be considered as a multi-example task, where we interpolate each biopsy core to find each point, and then use maxpooling to complete multi-example learning. You can see model.py for a detailed implementation.
 
 
