@@ -28,6 +28,17 @@ The backbone of it is a Unet which is obvious because it is a segmentation task.
 
 ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/dcf75dac-e942-4a8e-a807-1ea1a4e92ac8)
 
-It can be considered as a multi-example task, where we interpolate each biopsy core to find each point, and then use maxpooling to complete multi-example learning. You can see model.py for a detailed implementation.
+It can be considered as a multi-instance task, where we interpolate each biopsy core to find each point, and then use maxpooling to complete multi-instance learning. You can see model.py for a detailed implementation.
+
+# experiment
+
+First of all, we must thank the open source database:
+[1]	Natarajan S, Priester A, Margolis D, Huang J, Marks L. Prostate MRI and ultrasound with pathology and coordinates of tracked biopsy (Prostate-MRI-US-Biopsy). Cancer Imaging Arch. 2020;10:7937. DOI: 10.7937/TCIA.2020.A61IOC1A
+ ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/5da70c53-c07c-44b5-83e7-acbb538f5a11)
+
+ This dataset included T2-weighted MR images, MR location and Gleason grade of each biopsy (including systematic biopsy and targeted biopsy); the outline of the lesion and prostate which was outlined by radiologist (it is worth mentioning that the delineation of lesions was based on multimodal MRI and our predicted cancer was not dominant on multimodal MRI) ; clinical feature (including PI-RADS of outlined lesions and patient prostate-specific antigen).
+
+
+
 
 
