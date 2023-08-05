@@ -1,6 +1,6 @@
 # smi_unet_prostate
 
-Here is the official implementation of weakly supervised Unet. 
+Here is the official implementation of weakly supervised Unet.  We are supplementing this project. After the article is accepted, we will add more details, if you like our work, please give us a star!
 
 Now I can give you some additional details of the project.
 
