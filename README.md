@@ -11,6 +11,9 @@ We are all aware of the challenges associated with systematic biopsy for detecti
 
 Is there a way to make systematic biopsy as accurate and refined as targeted biopsy? Deep learning comes to mind, given its recent advancements. However, a major limitation is that even the most skilled radiologists struggle to accurately identify all prostate cancers, so how can we teach a machine to do so?
 
+
+# model
+
 In a groundbreaking approach, a weakly supervised method was employed to learn from previously conducted systematic biopsies. This allows the model to uncover real correlations between MRI spatial information and pathology.
 
 The overall process of establishing the model is outlined as follows:
