@@ -41,7 +41,16 @@ Here, we must thank the open source database:
 
  ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/5da70c53-c07c-44b5-83e7-acbb538f5a11)
 
- This dataset included T2-weighted MR images, MR location and Gleason grade of each biopsy (including systematic biopsy and targeted biopsy); the outline of the lesion and prostate which was outlined by radiologist (it is worth mentioning that the delineation of lesions was based on multimodal MRI and our predicted cancer was not dominant on multimodal MRI) ; clinical feature (including PI-RADS of outlined lesions and patient prostate-specific antigen).
+This study utilized a publicly available dataset, namely the Prostate MRI and ultrasound with pathology and coordinates of tracked biopsy (Prostate-MRI-US-Biopsy) dataset, obtained from The Cancer Imaging Archive (TCIA). The dataset was derived from tracked biopsy sessions using the Artemis biopsy system, which involved the fusion of real-time ultrasound and preoperative MRI images. Biopsy cores were sampled from regions of interest identified on MRI scans. Additionally, systematic biopsy cores were also sampled using a 12-core digital template. The Artemis system recorded the locations of targeted and systematic cores relative to the ultrasound scan, as well as the MRI biopsy coordinates for most cases.
+
+The dataset includes STL files and biopsy overlays that can be visualized in 3D Slicer with the SlicerHeart extension. Furthermore, spreadsheets summarizing biopsy and MRI target data are available. Detailed information about the dataset can be found in the Cancer Imaging Archive ( https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=68550661. )
+MRI targets in this dataset were defined using multiparametric MRI, such as T2-weighted, diffusion-weighted, and perfusion-weighted sequences. These targets were scored on a Likert-like scale with close correspondence to PIRADS version 2. T2-weighted MRI was used to trace ROI contours, and it is the only sequence provided in this dataset. MR imaging was performed on Siemens scanners including 3 Tesla Trio, Verio, or Skyra.
+
+Ultrasound scans were performed using Hitachi Hi-Vision 5500 7.5 MHz or Noblus C41V 2-10 MHz end-fire probe. 3D scans were acquired by rotating the end-fire probe 200 degrees about its axis, and the volume was resampled with isotropic resolution.
+
+The dataset consists of patients who were suspected of having prostate cancer due to elevated PSA levels and/or suspicious imaging findings. Patients who underwent or were scheduled to undergo routine, standard-of-care prostate biopsy at the UCLA Clark Urology Center were included in the study.
+
+Of the 1151 patients in the dataset, 777 patients met the inclusion and exclusion criteria, which is shown in Supplementary Fig. 1. The patients were randomly divided into a subset used for training (n = 600) and a separate testing set (n = 177). 
 
 # experiment
 
