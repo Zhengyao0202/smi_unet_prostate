@@ -1,0 +1,25 @@
+## This file helps you convert stl files to nii for use with deep learning models, enjoy
+
+
+
+
+# example:
+
+import json
+with open('E:\\origin_data\\stl_to_location.json', 'r') as f:
+    stl_to_location = json.load(f)
+import slicer
+for i in range(len(stl_to_location)):
+
+# i=1
+    stl_file_name = stl_to_location[i]['stl']
+    output_file_name = stl_to_location[i]['stl'].replace('STLS','nii').replace('STL','nii')+'.gz'
+    reference_volume_path = stl_to_location[i]['location']+'.nii.gz'
+
+    referenceVolumeNode = slicer.util.loadVolume(reference_volume_path)
+    segmentationNode = slicer.util.loadSegmentation(stl_file_name)
+    outputLabelmapVolumeNode = slicer.mrmlScene.AddNewNodeByClass('vtkMRMLLabelMapVolumeNode')
+    slicer.modules.segmentations.logic().ExportVisibleSegmentsToLabelmapNode(segmentationNode, outputLabelmapVolumeNode, referenceVolumeNode)
+    slicer.util.saveNode(outputLabelmapVolumeNode, output_file_name)
+    slicer.mrmlScene.Clear(0)
+    print(i)
