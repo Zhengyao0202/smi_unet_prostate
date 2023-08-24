@@ -50,11 +50,14 @@ Ultrasound scans were performed using Hitachi Hi-Vision 5500 7.5 MHz or Noblus C
 
 The dataset consists of patients who were suspected of having prostate cancer due to elevated PSA levels and/or suspicious imaging findings. Patients who underwent or were scheduled to undergo routine, standard-of-care prostate biopsy at the UCLA Clark Urology Center were included in the study.
 
-Of the 1151 patients in the dataset, 777 patients met the inclusion and exclusion criteria, which is shown in Supplementary Fig. 1. The patients were randomly divided into a subset used for training (n = 600) and a separate testing set (n = 177). 
+Of the 1151 patients in the dataset, 777 patients met the inclusion and exclusion criteria, which is shown in belew. The patients were randomly divided into a subset used for training (n = 600) and a separate testing set (n = 177). 
+
+![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/f3915561-e391-42dc-afae-bd22385a4054)
 
 # experiment
 
 1. preprocess
+
 
    
 
