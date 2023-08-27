@@ -1,10 +1,8 @@
 
 # Detecting prostate cancer with obscure MRI appearance using a weakly supervised deep learning model 
 
+![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/a7e9c4ea-76e5-437a-8e86-b6adea0128c3)
 
-![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/85fee6ab-7e0f-406a-b41c-8a04729f6bb9)
-
-#---
 
 ![Static Badge](https://img.shields.io/badge/model-WSUNet-blue)   ![Static Badge](https://img.shields.io/badge/Phase%20-Model%20testing%20-red)  ![Static Badge](https://img.shields.io/badge/Field%20-%20Prostate%20-%20Green)  ![Static Badge](https://img.shields.io/badge/Project%20-%20under%20development%20-%20orange)
 
