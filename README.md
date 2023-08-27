@@ -4,17 +4,16 @@
 
 ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/85fee6ab-7e0f-406a-b41c-8a04729f6bb9)
 
-![Static Badge](https://img.shields.io/badge/model-WSUNet-blue)   ![Static Badge](https://img.shields.io/badge/Phase%20-Model%20testing%20-red)  ![Static Badge](https://img.shields.io/badge/Field%20-%20Prostate%20-%20Green)
-
-
-
+![Static Badge](https://img.shields.io/badge/model-WSUNet-blue)   ![Static Badge](https://img.shields.io/badge/Phase%20-Model%20testing%20-red)  ![Static Badge](https://img.shields.io/badge/Field%20-%20Prostate%20-%20Green)  ![Static Badge](https://img.shields.io/badge/Project%20-%20under%20development%20-%20orange)
 
 
 
 
 ## overview
 
-**Here is the official implementation of weakly supervised Unet (WSUNet).  If you like our work, please give us a star!**
+**Here is the official implementation of weakly supervised Unet (WSUNet).** 
+
+**If you like our work, please give us a star!**
 
 ## Prerequisites
 * Python 3.8.1 
@@ -32,25 +31,32 @@ The data were collated by different MRI detections and it was collated into json
 
 we provides a sample  `data_one_sample.json` for your reference:
 
+```Shell
+"Core Label": [
+      "TARGET OR PRIOR POSITIVE",
+      "TARGET OR PRIOR POSITIVE",
+      "TARGET OR PRIOR POSITIVE"
+    ],
+    "MR_image_base": [
+      [
+        113.46211948529411,
+        151.75269292279413,
+    .......
 
-
-
-
-
-
+```
 
 ## train and test model 
 
 train a model:
 
-
-
-
-
-
-
-
-
+```Shell
+python  main.py
+--data_train [your train data]
+--data_test  [your test data]
+--log_dir  [output dir]
+--batch_size 12
+--max_epoches 100
+```
 
 
 
