@@ -1,5 +1,5 @@
 
-<div align='center' ><font size='70'> Detecting prostate cancer with obscure MRI appearance using a weakly supervised deep learning model </font></div>
+<div align='center' ><font size='170'> Detecting prostate cancer with obscure MRI appearance using a weakly supervised deep learning model </font></div>
 
 
 ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/6f0c1348-401f-4700-bb4b-a011f179d1c3)
