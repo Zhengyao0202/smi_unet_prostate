@@ -1,4 +1,4 @@
-
+![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/4435c3e1-8c61-4e73-88da-09e79ba38d34)
 
 # Detecting prostate cancer with obscure MRI appearance using a weakly supervised deep learning model 
 
@@ -6,12 +6,11 @@
 ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/85fee6ab-7e0f-406a-b41c-8a04729f6bb9)
 
 
-<div align="center"> <img src="https://visitor-badge.glitch.me/badge?page_id=sun0225SUN" /> </div>
+![Static Badge](https://img.shields.io/badge/model%2C%20WSUNet%2C%20Green)
 
-# WSUNet
+
 
 <div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=sun0225SUN" /> </div>
-
 
 
 ## overview
@@ -112,9 +111,7 @@ Of the 1151 patients in the dataset, 777 patients met the inclusion and exclusio
 
 ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/f3915561-e391-42dc-afae-bd22385a4054)
 
-### experiment
 
-1. preprocess
 
 
 
