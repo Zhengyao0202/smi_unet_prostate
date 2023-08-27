@@ -4,14 +4,12 @@
 
 ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/85fee6ab-7e0f-406a-b41c-8a04729f6bb9)
 
-![Static Badge](https://img.shields.io/badge/model-WSUNet-blue) ![Static Badge](https://img.shields.io/badge/Phase%20-Model%20testing%20-red) 
-
-
-![Static Badge](https://img.shields.io/badge/model%2C%20WSUNet%2C%20Green)
+![Static Badge](https://img.shields.io/badge/model-WSUNet-blue)   ![Static Badge](https://img.shields.io/badge/Phase%20-Model%20testing%20-red)  ![Static Badge](https://img.shields.io/badge/Field%20-%20Prostate%20-%20Green)
 
 
 
-<div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=sun0225SUN" /> </div>
+
+
 
 
 ## overview
