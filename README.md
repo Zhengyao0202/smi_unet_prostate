@@ -1,27 +1,57 @@
+
+![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/6f0c1348-401f-4700-bb4b-a011f179d1c3)
+
+<div align="center"> <img src="https://visitor-badge.glitch.me/badge?page_id=sun0225SUN" /> </div>
+
 # WSUNet
+
+<div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=sun0225SUN" /> </div>
+
+
 
 ## overview
 
-Here is the official implementation of weakly supervised Unet (WSUNet).  We are supplementing this project. After the article is accepted, we will add more details, if you like our work, please give us a star!
+**Here is the official implementation of weakly supervised Unet (WSUNet).  If you like our work, please give us a star!**
 
 ## Prerequisites
 * Python 3.8.1 
 * Pytorch 1.1.0 and torchvision (https://pytorch.org/)
 * MONAI 1.10
 * CUDA 10.0.130, CuDNN 7.3, and Ubuntu 18.04.
+* device: 1 A100 GPU or 2 V100 GPU
 
 ## Preparation of data
 Here, we used an open source database:
 
 [1]	Natarajan S, Priester A, Margolis D, Huang J, Marks L. Prostate MRI and ultrasound with pathology and coordinates of tracked biopsy (Prostate-MRI-US-Biopsy). Cancer Imaging Arch. 2020;10:7937. DOI: 10.7937/TCIA.2020.A61IOC1A
 
- ![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/5da70c53-c07c-44b5-83e7-acbb538f5a11)
+The data were collated by different MRI detections and it was collated into json format. 
 
-The dataset includes STL files and biopsy overlays that can be visualized in 3D Slicer with the SlicerHeart extension. Furthermore, spreadsheets summarizing biopsy and MRI target data are available. Detailed information about the dataset can be found in the Cancer Imaging Archive ( https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=68550661. )
+we provides a sample  `data_one_sample.json` for your reference:
+
+
+
+
+
 
 
 
 ## train and test model 
+
+train a model:
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
