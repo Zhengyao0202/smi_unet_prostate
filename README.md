@@ -15,6 +15,8 @@
 
 **If you like our work, please give us a star!**
 
+Article is submitted, some additional details and the results will be added in the future.
+
 ## Prerequisites
 * Python 3.8.1 
 * Pytorch 1.1.0 and torchvision (https://pytorch.org/)
@@ -96,10 +98,6 @@ Is there a way to make systematic biopsy as accurate and refined as targeted bio
 ### model
 
 In a groundbreaking approach, a weakly supervised method was employed to learn from previously conducted systematic biopsies. This allows the model to uncover real correlations between MRI spatial information and pathology.
-
-The overall process of establishing the model is outlined as follows:
-
-![图片](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/1102a412-51fd-4d32-aea7-1da507b4f3b9)
 
 We completed the model training and validation according to the following steps：First, the model would be trained to predict Gleason grade of biopsy (grade ≥ 7) in the training set, which allows the model to correlate spatial location and the probability of potential cancer. The trained model was used to generate a probability map of cancer distribution in the whole prostate based on MR images. Therefore, the model learns completely from the location and grade information of each biopsy, without any prior knowledge or misdirection of the radiologist. Then, to verify the performance of in searching for potential cancer areas, the model was used to generate 3D maps of potential cancer areas for each MR image, and the maps were evaluated with systematic biopsy in the testing set. 
 
