@@ -59,6 +59,20 @@ python  main.py
 ```
 
 
+After completion of the training model will automatically test, of course, you can also run the test code alone:
+
+
+test a model:
+
+```Shell
+python  test.py
+--data_test_path [your test data]
+--ori_out_dir  [output dir]
+
+```
+
+
+
 
 
 
