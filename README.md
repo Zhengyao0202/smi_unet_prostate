@@ -18,8 +18,8 @@
 Article is submitted, some additional details and the results will be added in the future.
 
 ## Prerequisites
-* Python 3.8.1 
-* Pytorch 1.1.0 and torchvision (https://pytorch.org/)
+* Python 3.9.16 
+* Pytorch 1.12 and torchvision (https://pytorch.org/)
 * MONAI 1.10
 * CUDA 10.0.130, CuDNN 7.3, and Ubuntu 18.04.
 * device: 1 A100 GPU or 2 V100 GPU
