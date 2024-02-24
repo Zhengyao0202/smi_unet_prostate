@@ -46,6 +46,15 @@ we provides a sample  `data_one_sample.json` for your reference:
     .......
 
 ```
+## Data Analysis
+
+We are deeply appreciative of the guidance provided by our reviewer, which has greatly enhanced the clarity of our article. Below, we include additional findings that, while not emphasized in the main text, substantiate the necessity of our study.
+
+![Image](https://github.com/Zhengyao0202/weakly_unet_prostate/assets/119670761/b9fd56bd-e85d-4380-b96d-fc335a8f1fa1)
+Fig. Cross-Tabulation of Highest Gleason Score Detected by Biopsy Method. A total of 1150 patients were diagnosed with the highest Gleason score through either systematic biopsy or MRI-targeted biopsy.
+
+Drawing from this figure, we systematically highlight the superior benefits of systematic biopsies over exclusive reliance on targeted biopsies.
+
 
 ## train and test model 
 
